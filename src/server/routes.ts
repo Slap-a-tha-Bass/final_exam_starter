@@ -2,7 +2,7 @@ import * as express from 'express';
 
 const router = express.Router();
 
-router.get('/api/hello', (req, res, next) => {
+router.get('/', async (req, res) => {
     res.json('World');
 });
 
